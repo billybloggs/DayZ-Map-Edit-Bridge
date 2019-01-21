@@ -227,6 +227,5 @@ class CustomMission: MissionServer
   
 Mission CreateCustomMission(string path)
 {
-	g_Game.SetMissionPath(path);
 	return new CustomMission();
 }
